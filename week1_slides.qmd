@@ -10,7 +10,7 @@ format:
      theme: default
      slide-number: true
      show-slide-number: print
-     footer: "PY4S - GG3209 - Second Part"
+     footer: "Module GG3209 - Second Part"
      execute:
         echo: false
         jupyter: python3
@@ -26,7 +26,7 @@ format:
 - During exercises (you can also ask for assistance from the TAs).
   
 ## Module in a glance 
-::: {.incremental}
+
 - What is Python, and why will you use it
 - Building blocks – What components will we use
   - Miniconda
@@ -35,7 +35,7 @@ format:
 - Python Basics
   - Two notebooks for guidance 
   - One notebook for practice
-:::
+
 
 ## Let me ask you something
 
@@ -48,7 +48,7 @@ format:
 :::: {.columns}
 
 ::: {.column width="50%"}
-![Exact Instructions challenge](img\Picture1.png)
+![](img\Picture1.png)
 :::
 
 ::: {.column width="50%"}
@@ -93,7 +93,6 @@ A Python script is a sequence of instructions. The structure and arrangement of 
 
 ## Python Modes
 
-
 There are many ways to write and run a python script:
 
 - Your terminal (Mac, Win, Linux)
@@ -103,9 +102,9 @@ There are many ways to write and run a python script:
 - More…
 
 
-# Demo No 1
+# Demo No 1:
 
-Running a python Script – Terminal, ipython
+Running a python Script
 
 ```{python}
 #| echo: true
@@ -146,10 +145,94 @@ print ("Hello world")
 Learn more: [Jupyter](https://quarto.org/docs/tools/jupyter-lab.html), [VS Code](https://quarto.org/docs/tools/vscode.html), [Text Editors](https://quarto.org/docs/tools/text-editors.html)
 :::
 
-
 ## Jupyter Notebook Structure {.smaller}
 ![](img/JupyterStructure.png){.border .border-thick}
 
+## Notebook Structure {.smaller}
+![](img/notebook_structure.png){.border .border-thick}
 
-  
+# Markdown {.smaller}
+
+Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created in 2004, Markdown is now one of the world’s most popular markup languages.
+
+![](img/markdown.png){.border .border-thick}
+
+## Markdown Structure {.smaller}
+
+::: {layout-ncol="2"}
+
+- Markdown can be used for everything
+- Markdown is portable
+- Markdown is platform-independent
+
+![](img/markdown_structure.png){.border .border-thick}
+:::  
+
+::: footer
+[Basic Syntax | Markdown Guide](https://www.markdownguide.org/){preview-link="true" style="text-align: center"}
+:::
+
+# Demo No 2:
+
+Jupyter Lab
+
+# GIT – Version control {.smaller}
+
+Git is open-source software for version control, which means that it tracks changes to your files as you work on them over time.
+
+Similar to “track changes” feature in a word document, except you must choose which versions to include in the tracking—it is not automatic.
+
+It can be tricky, and we may or may not have issues; it happens to everyone.
+Widely used in academia and industry.
+
+# Github? {.smaller}
+
+GitHub is a web-based version control system which uses Git, the open-source version control software. It provides a place for developers to host and share their projects — a space to save earlier iterations and collaborate with other developers, colleagues, or co-workers.
+
+It can be used even to host websites, research projects, portfolios, data, and more.
+
+It is widely popular and can be a way to get a job nowadays in the GIScience field.
+
+## How does it work {.smaller}
+
+![](img/git_1.png){.absolute top="70" left="-17" height=16.04cm weight=7.48cm }
+
+![](img/git2.png){.absolute .fragment top="300" left="238" width="3.92cm" height="10.2cm" }
+
+![](img/git3.png){.absolute .fragment top="70" left="371" height=15.87cm width=8.41cm}
+
+![](img/git4.png){.absolute .fragment top="70" right="-60" height=15.62cm width=10.2cm}
+
+![](img/git5.png){.absolute .fragment bottom="6" right="89" height=4.53cm width=22.71cm}
+
+## Terminology {.smaller}
+
+- **Repository:** Is a project (a folder) containing files and sub-folders. A repository tracks versions of files and folders.
+- **Branch:**  A branch is a parallel version of your repository. By default, your repository has one branch named main and is considered the definitive branch. You can use branches to have different project versions at once.
+- **Clone:** Local copy of a repository stored on the cloud. Clones can be synced up with their originals in the GitHub repository.
+- **Commit:** A commit is a set of changes to the files and folders in your project. A commit exists in a branch.
+- **Fork:** “Forking” is when you copy another user’s repository to your account. You can make any changes to your forked copy, leaving the original unaffected. 
+
+## Terminology-II {.smaller}
+- **Pull/push:** Merging changes made to the repository files into the local copy you’re working on is called “pulling.” A “push” is the reverse — updating the repository files with changes you’ve made to your local copy.
+- **Pull request:** Collaboration happens on a pull request. The pull request shows the changes in your branch to other people. This pull request will keep the changes you just made on your branch and propose applying them to the main branch.
+- **Merge:** A merge adds the changes in your pull request and branch into the main branch
+
+
+# Demo No 3:
+
+Git and GitHub
+
+# Recipe (Ingredients) for this course {.smaller}
+
+- Python (ideally v3.10)
+- Conda, more specifically MiniConda
+- Jupyter Notebook Lab
+- Git – GitHub Account
+
+Lot of attractive packages **(it’s like the seasoning)** Like in any recipe, the right ingredients define the dish's success; In here; installing your components appropriately will help run the python scripts correctly.
+
+
+
+
 

@@ -2,7 +2,7 @@
 _book/
 __pycache__
 
-/PY4SA_Slides_files/
+/week1_slides_files/
 
 /_*.local
 /.venv/
@@ -10,7 +10,7 @@ __pycache__
 *_cache/
 /env/
 
-PY4SA_Slides.html
+week1_slides.html
 
 .DS_Store
 *.vscode
