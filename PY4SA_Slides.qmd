@@ -1,0 +1,155 @@
+---
+title: "Python for Spatial Analysis – PY4SA"
+author: "Dr Fernando Benitez-Paez"
+format: 
+    revealjs:
+     incremental: false
+     title-slide-attributes:
+        data-background-opacity: "0.5"
+     
+     theme: default
+     slide-number: true
+     show-slide-number: print
+     footer: "PY4S - GG3209 - Second Part"
+     execute:
+        echo: false
+        jupyter: python3
+     
+---
+
+## Housekeeping
+- Lecture with basic concepts and some demonstrations
+- Labs with exercises, Assessment No 2
+- Course Resources:
+- Course Book (Labs, assessment, Slides)
+- If something is not clear, stop me and ask.
+- During exercises (you can also ask for assistance from the TAs).
+  
+## Module in a glance 
+::: {.incremental}
+- What is Python, and why will you use it
+- Building blocks – What components will we use
+  - Miniconda
+  - Jupyter Notebook
+  - Git – GitHub Account
+- Python Basics
+  - Two notebooks for guidance 
+  - One notebook for practice
+:::
+
+## Let me ask you something
+
+- Do you have any programming experience?
+  - Why should we learn to program?
+- Why should we learn Python if we can use QGIS or another GIS tool?
+
+. . .
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![Exact Instructions challenge](img\Picture1.png)
+:::
+
+::: {.column width="50%"}
+[Play here the video](https://www.youtube.com/watch?v=Ct-lOOUqmyY&t=4s)
+:::
+
+::::
+
+---
+
+![](img\GISTools_Carto.jpg){width=50%}
+
+---
+## Failure
+
+- You will fail, but that is ok, it is part of the process.
+- Don't be afraid of it.
+- Error messages are scary, I know, but they are useful as well
+
+# Why Python
+::: {.r-fit-text}
+- A free and open-sourced scripting language that was commonly used to automate tasks (GIS world). 
+- Nowadays can be used to read, process and map spatial data. It uses a code structure, referred to as syntax, that is easy to read and understand. 
+- Syntax helps beginners to learn the language and helps professionals to minimise development and maintenance costs. 
+- Python has thousands of packages so that you can integrate a vast number of tools and programs.
+:::
+
+## What makes a Python script?
+
+A Python script is a sequence of instructions. The structure and arrangement of the instructions are referred to as syntax. Python instructions use various language elements, including data types, statements, and functions.
+
+![](img/Picture6.png)
+
+## Why is it so powerful
+
+- Modules are collections of related code that contain variables, definitions, and instructions. 
+  - These modules are organised into packages, which can be further grouped into libraries. 
+- These libraries are typically specialised and enable you to perform higher-level tasks related to those specialities. 
+  - For example, **Pandas** enables you to work with tabular data, **NumPy** grant the ability to make advanced mathematical and scientific computations, and **Matplotlib** allows you to visualise data graphically.
+
+
+
+## Python Modes
+
+
+There are many ways to write and run a python script:
+
+- Your terminal (Mac, Win, Linux)
+- Python scripts (.py) (Programs)
+- Ipython - Jupyter Notebook (.ipynb): Interactive, widely use in research
+- Google Colab (Cloud service, require a google account)
+- More…
+
+
+# Demo No 1
+
+Running a python Script – Terminal, ipython
+
+```{python}
+#| echo: true
+a = 5
+b = 4
+c = a+b
+
+print ("The outcomes would be like:")
+print (c)
+print ("Hello world")
+
+```
+
+# Conda - Miniconda {.smaller}
+
+- Conda is an open-source package and environment management system that runs on Windows, macOS, and Linux.
+- Conda easily creates, saves, loads and switches between environments on your local computer. It was created for Python programs but can package and distribute software for any language.
+- Miniconda is a minimal installer for conda. It is a small version of Anaconda that includes only conda, Python, the packages they depend on, and a small number of other useful packages, including pip, zlib and a few others.
+
+
+# Jupyter Notebook (Lab) {.smaller}
+
+::: columns
+::: {.column width="40%"}
+![](img/JupyterLab_pic.png){.border .border-thick}
+:::
+
+::: {.column width="60%"}
+- This is the python environment we will use to learn python and for our labs
+- Easy-to-use environment
+- Web-based
+- Combines both text and code into one
+- Come with a great number of useful packages
+:::
+:::
+
+::: footer
+Learn more: [Jupyter](https://quarto.org/docs/tools/jupyter-lab.html), [VS Code](https://quarto.org/docs/tools/vscode.html), [Text Editors](https://quarto.org/docs/tools/text-editors.html)
+:::
+
+
+## Jupyter Notebook Structure {.smaller}
+![](img/JupyterStructure.png){.border .border-thick}
+
+
+  
+
