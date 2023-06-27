@@ -367,11 +367,11 @@ x+y
 (Arithmetic, Logical, Comparison)
 
 ::: r-stack
-![](img/operators.png){.fragment .fade-in-then-out fig-align="centre" width="50%"}
+![](img/operators.png){.fragment .fade-in-then-out fig-align="center" width="50%"}
 
-![](img/comparison_operators.png){.fragment .fade-in-then-out fig-align="centre" width="60%"}
+![](img/comparison_operators.png){.fragment .fade-in-then-out fig-align="center" width="60%"}
 
-![](img/LogicalOperators.png){.fragment .fade-in-then-out fig-align="centre" width="70%"}
+![](img/LogicalOperators.png){.fragment .fade-in-then-out fig-align="center" width="70%"}
 :::
 
 ## List
