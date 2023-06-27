@@ -1,5 +1,6 @@
 /.quarto/
 _book/
+/_site/
 __pycache__
 
 /week1_slides_files/
@@ -9,8 +10,6 @@ __pycache__
 /.condaenv/
 *_cache/
 /env/
-
-week1_slides.html
 
 .DS_Store
 *.vscode
