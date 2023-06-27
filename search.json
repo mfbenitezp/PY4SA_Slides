@@ -165,6 +165,6 @@
     "href": "week1_slides.html#commenting",
     "title": "Python for Spatial Analysis – PY4SA",
     "section": "Commenting",
-    "text": "Commenting\n\nUseful when you want to remove the code from execution but not permanently\nUseful when your code needs further explanation. Whether for you or anybody else.\nComments in Python are done with #\n\n### You can comment before the lines\na=3 # You can comment next to the line\nb=5\n# After the lines\n'''\nThis is a multiline\ncomment.\n'''\n\n\nModule GG3209 - Second Part"
+    "text": "Commenting\n\nUseful when you want to remove the code from execution but not permanently\nUseful when your code needs further explanation. Whether for you or anybody else.\nComments in Python are done with #\n\n### You can comment before the lines\na=3 # You can comment next to the line\nb=5\n# After the lines\n'''\nThis is a multiline\ncomment.\n'''"
   }
 ]
