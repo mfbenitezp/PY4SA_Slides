@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "week1_slides.html#housekeeping",
+    "href": "week1_slides.html#housekeeping",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Housekeeping",
+    "text": "Housekeeping\n\nLecture with basic concepts and some demonstrations\nLabs with exercises, Assessment No 2\nCourse Resources:\nCourse Book (Labs, assessment, Slides)\nIf something is not clear, stop me and ask.\nDuring exercises (you can also ask for assistance from the TAs)."
+  },
+  {
+    "objectID": "week1_slides.html#module-in-a-glance",
+    "href": "week1_slides.html#module-in-a-glance",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Module in a glance",
+    "text": "Module in a glance\n\nWhat is Python, and why will you use it\nBuilding blocks – What components will we use\nMiniconda\nJupyter Notebook\nGit – GitHub Account\nPython Basics\n\nTwo notebooks for guidance\nOne notebook for practice"
+  },
+  {
+    "objectID": "week1_slides.html#let-me-ask-you-something",
+    "href": "week1_slides.html#let-me-ask-you-something",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Let me ask you something",
+    "text": "Let me ask you something\n\nDo you have any programming experience?\n\nWhy should we learn to program?\n\nWhy should we learn Python if we can use QGIS or another GIS tool?\n\n\n\n\n\n\nPlay here the video"
+  },
+  {
+    "objectID": "week1_slides.html#failure",
+    "href": "week1_slides.html#failure",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Failure",
+    "text": "Failure\n\nYou will fail, but that is ok, it is part of the process.\nDon’t be afraid of it.\nError messages are scary, I know, but they are useful as well"
+  },
+  {
+    "objectID": "week1_slides.html#what-makes-a-python-script",
+    "href": "week1_slides.html#what-makes-a-python-script",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "What makes a Python script?",
+    "text": "What makes a Python script?\n\nA Python script is a sequence of instructions. The structure and arrangement of the instructions are referred to as syntax. Python instructions use various language elements, including data types, statements, and functions."
+  },
+  {
+    "objectID": "week1_slides.html#why-is-it-so-powerful",
+    "href": "week1_slides.html#why-is-it-so-powerful",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Why is it so powerful",
+    "text": "Why is it so powerful\n\nModules are collections of related code that contain variables, definitions, and instructions.\n\nThese modules are organised into packages, which can be further grouped into libraries.\n\nThese libraries are typically specialised and enable you to perform higher-level tasks related to those specialities.\n\nFor example, Pandas enables you to work with tabular data, NumPy grant the ability to make advanced mathematical and scientific computations, and Matplotlib allows you to visualise data graphically."
+  },
+  {
+    "objectID": "week1_slides.html#python-modes",
+    "href": "week1_slides.html#python-modes",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Python Modes",
+    "text": "Python Modes\nThere are many ways to write and run a python script:\n\nYour terminal (Mac, Win, Linux)\nPython scripts (.py) (Programs)\nIpython - Jupyter Notebook (.ipynb): Interactive, widely use in research\nGoogle Colab (Cloud service, require a google account)\nMore…"
+  },
+  {
+    "objectID": "week1_slides.html#jupyter-notebook-structure",
+    "href": "week1_slides.html#jupyter-notebook-structure",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Jupyter Notebook Structure",
+    "text": "Jupyter Notebook Structure"
+  },
+  {
+    "objectID": "week1_slides.html#notebook-structure",
+    "href": "week1_slides.html#notebook-structure",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Notebook Structure",
+    "text": "Notebook Structure"
+  },
+  {
+    "objectID": "week1_slides.html#markdown-structure",
+    "href": "week1_slides.html#markdown-structure",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Markdown Structure",
+    "text": "Markdown Structure\n\n\n\n\nMarkdown can be used for everything\nMarkdown is portable\nMarkdown is platform-independent\n\n\n\n\n\n\n\n\nBasic Syntax | Markdown Guide"
+  },
+  {
+    "objectID": "week1_slides.html#how-does-it-work",
+    "href": "week1_slides.html#how-does-it-work",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "How does it work",
+    "text": "How does it work"
+  },
+  {
+    "objectID": "week1_slides.html#terminology",
+    "href": "week1_slides.html#terminology",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Terminology",
+    "text": "Terminology\n\nRepository: Is a project (a folder) containing files and sub-folders. A repository tracks versions of files and folders.\nBranch: A branch is a parallel version of your repository. By default, your repository has one branch named main and is considered the definitive branch. You can use branches to have different project versions at once.\nClone: Local copy of a repository stored on the cloud. Clones can be synced up with their originals in the GitHub repository.\nCommit: A commit is a set of changes to the files and folders in your project. A commit exists in a branch.\nFork: “Forking” is when you copy another user’s repository to your account. You can make any changes to your forked copy, leaving the original unaffected. \nPull/push: Merging changes made to the repository files into the local copy you’re working on is called “pulling.” A “push” is the reverse — updating the repository files with changes you’ve made to your local copy.\nPull request: Collaboration happens on a pull request. The pull request shows the changes in your branch to other people. This pull request will keep the changes you just made on your branch and propose applying them to the main branch.\nMerge: A merge adds the changes in your pull request and branch into the main branch"
+  },
+  {
+    "objectID": "week1_slides.html#as-simple-as-a-calculator",
+    "href": "week1_slides.html#as-simple-as-a-calculator",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "As simple as a calculator",
+    "text": "As simple as a calculator\nLet us calculate the distance between U St Andrews and Edinburgh, but in kms\n\n53.2 * 1.609344\n\n\n\n85.61710080000002"
+  },
+  {
+    "objectID": "week1_slides.html#variables",
+    "href": "week1_slides.html#variables",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Variables",
+    "text": "Variables\n\nGreat calculator, but how can we make it store values?\nDo this by defining variables\nCan later be called by the variable name\nVariable names are case-sensitive and unique\n\n\nDistanceStAndrewsToEDI = 53.2\nMilesToKm = 1.609344\nDistanceFromStAndrewsToEDI = DistanceStAndrewsToEDI * MilesToKm\nDistanceFromStAndrewsToEDI\n\n\n\n85.61710080000002"
+  },
+  {
+    "objectID": "week1_slides.html#variables-1",
+    "href": "week1_slides.html#variables-1",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Variables",
+    "text": "Variables\nWe can now reuse the variable MileToKms in the next cell without having to define it again!\n\n\n\n\n\n\n\n\n\n\n\n\nMarathonDistanceInMiles = 26.219\nMarathonDistanceInKms = MilesToKm * MarathonDistanceInMiles\nMarathonDistanceInKms\n\n\n\n42.195390336\n\n\n\nLearn more: What is a Variable"
+  },
+  {
+    "objectID": "week1_slides.html#types-of-variable",
+    "href": "week1_slides.html#types-of-variable",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Types of variable",
+    "text": "Types of variable\n\nVariables actually have a type, which defines the way it is stored. The basic types are:"
+  },
+  {
+    "objectID": "week1_slides.html#why-this-is-important",
+    "href": "week1_slides.html#why-this-is-important",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Why this is important",
+    "text": "Why this is important\n\n\n\n\n\n\n\n\n\n\nTo remember! We can’t do arithmetic operations on variables of different types. Therefore, make sure that you are always aware of your variables types! You can find the type of a variable by adding type(). For example: type(x).\n\n\n\n\nx = 10\ntype(x)\n\n\n\nint"
+  },
+  {
+    "objectID": "week1_slides.html#casting-types",
+    "href": "week1_slides.html#casting-types",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Casting types",
+    "text": "Casting types\nLuckily, Python offers us a way of converting variables to different types!\nCasting – the operation of converting a variable to a different type\n\ny = '20'\na = x + int(y)\nprint(a)\n\n\n\n30\n\n\nSimilar methods exist for other data types: int(), float(), str()"
+  },
+  {
+    "objectID": "week1_slides.html#operations",
+    "href": "week1_slides.html#operations",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Operations",
+    "text": "Operations\n(Arithmetic, Logical, Comparison)"
+  },
+  {
+    "objectID": "week1_slides.html#list",
+    "href": "week1_slides.html#list",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "List",
+    "text": "List\n\nAllow to store multiple numbers, strings, or booleans in a single variable.\nSquare brackets are used to denote lists. Items in a list are ordered, indexed, and allow for duplicate members.\nIndexing starts at 0.\n\n\n\nlst1 = [6, 7, 8, 9, 11, 2, 0]\nlst2 = [\"A\", \"B\", \"C\"]\nlst3 = [True, False, True]\nprint(lst1[0])\nprint(lst1[0:3])\nprint(lst2[-4:-1])\n\n\n6\n[6, 7, 8]\n['A', 'B']"
+  },
+  {
+    "objectID": "week1_slides.html#dictionaries",
+    "href": "week1_slides.html#dictionaries",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Dictionaries",
+    "text": "Dictionaries\nAre unordered, changeable, indexed, and do not allow duplicate elements. In contrast to lists each value is also assigned with key.\n\n\n\n\n\n\nTip\n\n\nValues can be selected using the associated key. You can also use the key to define a value to change.\n\n\n\ncls = {\"code\": \"GG3209\", \"Name\":\"Spatial Analysis with Python\"}\nprint(cls)\nprint(cls[\"Name\"])\ncls[\"code\"] = 461\nprint(cls)"
+  },
+  {
+    "objectID": "week1_slides.html#dictionaries-1",
+    "href": "week1_slides.html#dictionaries-1",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Dictionaries",
+    "text": "Dictionaries\nAre unordered, changeable, indexed, and do not allow duplicate elements. In contrast to lists each value is also assigned with key.\n\n\n\n\n\n\nTip\n\n\nValues can be selected using the associated key. You can also use the key to define a value to change.\n\n\n\n\ncls = {\"code\": \"GG3209\", \"Name\":\"Spatial Analysis with Python\"}\nprint(cls)\nprint(cls[\"Name\"])\ncls[\"code\"] = 461\nprint(cls)\n\n\n\n{'code': 'GG3209', 'Name': 'Spatial Analysis with Python'}\nSpatial Analysis with Python\n{'code': 461, 'Name': 'Spatial Analysis with Python'}"
+  },
+  {
+    "objectID": "week1_slides.html#arrays",
+    "href": "week1_slides.html#arrays",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Arrays",
+    "text": "Arrays\nSimilar to lists; however, they must be declared. In this course, we will primarily work with NumPy arrays, which will be discussed in more detail in a later module.\n\nmy_array = [1, 2, 3, 4]\nprint(my_array)\n\nprint(my_array[0])   # Output: 1\nprint(my_array[2])   # Output: 3\nmy_array[1] = 7\n\nprint(my_array)\n\n\n\n[1, 2, 3, 4]\n1\n3\n[1, 7, 3, 4]"
+  },
+  {
+    "objectID": "week1_slides.html#commenting",
+    "href": "week1_slides.html#commenting",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "Commenting",
+    "text": "Commenting\n\nUseful when you want to remove the code from execution but not permanently\nUseful when your code needs further explanation. Whether for you or anybody else.\nComments in Python are done with #\n\n### You can comment before the lines\na=3 # You can comment next to the line\nb=5\n# After the lines\n'''\nThis is a multiline\ncomment.\n'''\n\n\nModule GG3209 - Second Part"
+  }
+]
