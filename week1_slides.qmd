@@ -7,8 +7,10 @@ format:
     revealjs:
      incremental: false
      title-slide-attributes:
-        data-background-image: img/python_bg.jpg
+        data-background-video: img/video_bg.mp4
         data-background-opacity: "0.5"
+        data-background-video-loop: true
+        data-background-color: black
      slide-number: true
      show-slide-number: print
      footer: "Module GG3209 - Second Part"
@@ -55,24 +57,33 @@ format:
 :::
 :::
 
-------------------------------------------------------------------------
+## GIS Tools Trends 
 
-![](img/GISTools_Carto.jpg){width="50%"}
+::: {layout-ncol="2"}
+![](img/GISTools_Carto.png){width=80% fig-align=left}
 
-------------------------------------------------------------------------
+:::{style="margin-top: 10em;"}
+Python and R as the tools as the programming languages to master as `spatial data researcher`
+:::
+
+:::
+
+::: footer
+[What is Spatial Data Science| Carto](https://carto.com/what-is-spatial-data-science){preview-link="true" style="text-align: center"}
+:::
 
 ## Failure
 
--   You will fail, but that is ok, it is part of the process.
--   Don't be afraid of it.
--   Error messages are scary, I know, but they are useful as well
+- `You will fail`, but that is ok, it is part of the process.
+- `Don't be afraid` of it.
+- Error messages are scary, I know, but they are useful as well
 
 # Why Python
 
--   A free and open-sourced scripting language that was commonly used to automate tasks (GIS world).
--   Nowadays can be used to read, process and map spatial data. It uses a code structure, referred to as syntax, that is easy to read and understand.
--   Syntax helps beginners to learn the language and helps professionals to minimise development and maintenance costs.
--   Python has thousands of packages so that you can integrate a vast number of tools and programs.
+- A **free and open-sourced** scripting language that was commonly used to automate tasks (GIS world).
+- Nowadays can be used to read, process and map spatial data. It uses a code structure, referred to as syntax, that is easy to read and understand.
+- Syntax helps beginners to learn the language and helps professionals to minimise development and maintenance costs.
+- Python has thousands of packages so that you can integrate a vast number of tools and programs.
 
 ## What makes a Python script?
 

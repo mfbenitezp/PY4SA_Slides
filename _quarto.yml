@@ -1,6 +1,10 @@
 project:
   title: "PY4SA_Slides"
   type: website
+website:
+  favicon: img/favico.ico
+  twitter-card: true
+  site-url: https://mfbenitezp.github.io/PY4SA_Slides/
 execute:
   freeze: auto
   
