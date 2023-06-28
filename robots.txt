@@ -1,1 +1,1 @@
-Sitemap: https://github.com/mfbenitezp/PY4SA_Slides/sitemap.xml
+Sitemap: https://mfbenitezp.github.io/PY4SA_Slides/sitemap.xml

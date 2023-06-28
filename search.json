@@ -18,14 +18,21 @@
     "href": "week1_slides.html#let-me-ask-you-something",
     "title": "Python for Spatial Analysis – PY4SA",
     "section": "Let me ask you something",
-    "text": "Let me ask you something\n\nDo you have any programming experience?\n\nWhy should we learn to program?\n\nWhy should we learn Python if we can use QGIS or another GIS tool?\n\n\n\n\n\n\nPlay here the video"
+    "text": "Let me ask you something\n\nDo you have any programming experience?\n\nWhy should we learn to program?\n\nWhy should we learn Python if we can use QGIS or another GIS tool?\n\n\n\n\n\nPlay here the video"
+  },
+  {
+    "objectID": "week1_slides.html#gis-tools-trends",
+    "href": "week1_slides.html#gis-tools-trends",
+    "title": "Python for Spatial Analysis – PY4SA",
+    "section": "GIS Tools Trends",
+    "text": "GIS Tools Trends\n\n\n\n\n\n\n\n\n\n\nPython and R as the tools as the programming languages to master as spatial data researcher\n\n\n\n\nWhat is Spatial Data Science| Carto"
   },
   {
     "objectID": "week1_slides.html#failure",
     "href": "week1_slides.html#failure",
     "title": "Python for Spatial Analysis – PY4SA",
     "section": "Failure",
-    "text": "Failure\n\nYou will fail, but that is ok, it is part of the process.\nDon’t be afraid of it.\nError messages are scary, I know, but they are useful as well"
+    "text": "Failure\n\nYou will fail, but that is ok, it is part of the process.\nDon't be afraid of it.\nError messages are scary, I know, but they are useful as well"
   },
   {
     "objectID": "week1_slides.html#what-makes-a-python-script",
@@ -38,8 +45,8 @@
     "objectID": "week1_slides.html#why-is-it-so-powerful",
     "href": "week1_slides.html#why-is-it-so-powerful",
     "title": "Python for Spatial Analysis – PY4SA",
-    "section": "Why is it so powerful",
-    "text": "Why is it so powerful\n\nModules are collections of related code that contain variables, definitions, and instructions.\n\nThese modules are organised into packages, which can be further grouped into libraries.\n\nThese libraries are typically specialised and enable you to perform higher-level tasks related to those specialities.\n\nFor example, Pandas enables you to work with tabular data, NumPy grant the ability to make advanced mathematical and scientific computations, and Matplotlib allows you to visualise data graphically."
+    "section": "Why is it so powerful?",
+    "text": "Why is it so powerful?\n\nModules are collections of related code that contain variables, definitions, and instructions.\n\nThese modules are organised into packages, which can be further grouped into libraries.\n\nThese libraries are typically specialised and enable you to perform higher-level tasks related to those specialities.\n\nFor example, Pandas enables you to work with tabular data, NumPy grant the ability to make advanced mathematical and scientific computations, and Matplotlib allows you to visualise data graphically."
   },
   {
     "objectID": "week1_slides.html#python-modes",
@@ -73,8 +80,8 @@
     "objectID": "week1_slides.html#how-does-it-work",
     "href": "week1_slides.html#how-does-it-work",
     "title": "Python for Spatial Analysis – PY4SA",
-    "section": "How does it work",
-    "text": "How does it work"
+    "section": "How does it work?",
+    "text": "How does it work?"
   },
   {
     "objectID": "week1_slides.html#terminology",
@@ -115,8 +122,8 @@
     "objectID": "week1_slides.html#why-this-is-important",
     "href": "week1_slides.html#why-this-is-important",
     "title": "Python for Spatial Analysis – PY4SA",
-    "section": "Why this is important",
-    "text": "Why this is important\n\n\n\n\n\n\n\n\n\n\nTo remember! We can’t do arithmetic operations on variables of different types. Therefore, make sure that you are always aware of your variables types! You can find the type of a variable by adding type(). For example: type(x).\n\n\n\n\nx = 10\ntype(x)\n\n\n\nint"
+    "section": "Why this is important?",
+    "text": "Why this is important?\n\n\n\n\n\n\n\n\n\n\nTo remember! We can’t do arithmetic operations on variables of different types. Therefore, make sure that you are always aware of your variables types! You can find the type of a variable by adding type(). For example: type(x).\n\n\n\n\nx = 10\ntype(x)\n\n\n\nint"
   },
   {
     "objectID": "week1_slides.html#casting-types",
