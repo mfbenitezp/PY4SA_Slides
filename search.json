@@ -18,7 +18,7 @@
     "href": "week1_slides.html#let-me-ask-you-something",
     "title": "Python for Spatial Analysis – PY4SA",
     "section": "Let me ask you something",
-    "text": "Let me ask you something\n\nDo you have any programming experience?\n\nWhy should we learn to program?\n\nWhy should we learn Python if we can use QGIS or another GIS tool?\n\n\n\n\n\nPlay here the video"
+    "text": "Let me ask you something\n\nDo you have any programming experience?\n\nWhy should we learn to program?\n\nWhy should we learn Python if we can use QGIS or another GIS tool?"
   },
   {
     "objectID": "week1_slides.html#gis-tools-trends",
@@ -28,11 +28,11 @@
     "text": "GIS Tools Trends\n\n\n\n\n\n\n\n\n\n\nPython and R as the tools as the programming languages to master as spatial data researcher\n\n\n\n\nWhat is Spatial Data Science| Carto"
   },
   {
-    "objectID": "week1_slides.html#failure",
-    "href": "week1_slides.html#failure",
+    "objectID": "week1_slides.html#here-make-mistakes-is-worthy",
+    "href": "week1_slides.html#here-make-mistakes-is-worthy",
     "title": "Python for Spatial Analysis – PY4SA",
-    "section": "Failure",
-    "text": "Failure\n\nYou will fail, but that is ok, it is part of the process.\nDon't be afraid of it.\nError messages are scary, I know, but they are useful as well"
+    "section": "Here make mistakes is worthy",
+    "text": "Here make mistakes is worthy\n\nYou will fail, but that is ok, it is part of the process.\nDon't be afraid of it.\nError messages are scary, I know, but they are useful."
   },
   {
     "objectID": "week1_slides.html#what-makes-a-python-script",
@@ -46,7 +46,7 @@
     "href": "week1_slides.html#why-is-it-so-powerful",
     "title": "Python for Spatial Analysis – PY4SA",
     "section": "Why is it so powerful?",
-    "text": "Why is it so powerful?\n\nModules are collections of related code that contain variables, definitions, and instructions.\n\nThese modules are organised into packages, which can be further grouped into libraries.\n\nThese libraries are typically specialised and enable you to perform higher-level tasks related to those specialities.\n\nFor example, Pandas enables you to work with tabular data, NumPy grant the ability to make advanced mathematical and scientific computations, and Matplotlib allows you to visualise data graphically."
+    "text": "Why is it so powerful?\n\nModules are collections of related code that contain variables, definitions, and instructions.\nThese modules are organised into packages, which can be further grouped into libraries.\nThese libraries are typically specialised and enable you to perform higher-level tasks related to those specialities.\nFor example, Pandas enables you to work with tabular data, NumPy grant the ability to make advanced mathematical and scientific computations, and Matplotlib allows you to visualise data graphically."
   },
   {
     "objectID": "week1_slides.html#python-modes",
@@ -84,18 +84,18 @@
     "text": "How does it work?"
   },
   {
-    "objectID": "week1_slides.html#terminology",
-    "href": "week1_slides.html#terminology",
+    "objectID": "week1_slides.html#version-control-terminology",
+    "href": "week1_slides.html#version-control-terminology",
     "title": "Python for Spatial Analysis – PY4SA",
-    "section": "Terminology",
-    "text": "Terminology\n\nRepository: Is a project (a folder) containing files and sub-folders. A repository tracks versions of files and folders.\nBranch: A branch is a parallel version of your repository. By default, your repository has one branch named main and is considered the definitive branch. You can use branches to have different project versions at once.\nClone: Local copy of a repository stored on the cloud. Clones can be synced up with their originals in the GitHub repository.\nCommit: A commit is a set of changes to the files and folders in your project. A commit exists in a branch.\nFork: “Forking” is when you copy another user’s repository to your account. You can make any changes to your forked copy, leaving the original unaffected. \nPull/push: Merging changes made to the repository files into the local copy you’re working on is called “pulling.” A “push” is the reverse — updating the repository files with changes you’ve made to your local copy.\nPull request: Collaboration happens on a pull request. The pull request shows the changes in your branch to other people. This pull request will keep the changes you just made on your branch and propose applying them to the main branch.\nMerge: A merge adds the changes in your pull request and branch into the main branch"
+    "section": "Version control terminology",
+    "text": "Version control terminology\n\nRepository: Is a project (a folder) containing files and sub-folders. A repository tracks versions of files and folders.\nBranch: A branch is a parallel version of your repository. By default, your repository has one branch named main and is considered the definitive branch. You can use branches to have different project versions at once.\nClone: Local copy of a repository stored on the cloud. Clones can be synced up with their originals in the GitHub repository.\nCommit: A commit is a set of changes to the files and folders in your project. A commit exists in a branch.\nFork: “Forking” is when you copy another user’s repository to your account. You can make any changes to your forked copy, leaving the original unaffected. \nPull/push: Merging changes made to the repository files into the local copy you’re working on is called “pulling.” A “push” is the reverse — updating the repository files with changes you’ve made to your local copy.\nPull request: Collaboration happens on a pull request. The pull request shows the changes in your branch to other people. This pull request will keep the changes you just made on your branch and propose applying them to the main branch.\nMerge: A merge adds the changes in your pull request and branch into the main branch"
   },
   {
     "objectID": "week1_slides.html#as-simple-as-a-calculator",
     "href": "week1_slides.html#as-simple-as-a-calculator",
     "title": "Python for Spatial Analysis – PY4SA",
     "section": "As simple as a calculator",
-    "text": "As simple as a calculator\nLet us calculate the distance between U St Andrews and Edinburgh, but in kms\n\n53.2 * 1.609344\n\n\n\n85.61710080000002"
+    "text": "As simple as a calculator\n\nLet us calculate the distance between U St Andrews and Edinburgh, but in kms\n\n\n53.2 * 1.609344 # the distance in miles multiply by the kms in one mile\n\n\n\n85.61710080000002"
   },
   {
     "objectID": "week1_slides.html#variables",
@@ -151,14 +151,14 @@
     "href": "week1_slides.html#dictionaries",
     "title": "Python for Spatial Analysis – PY4SA",
     "section": "Dictionaries",
-    "text": "Dictionaries\nAre unordered, changeable, indexed, and do not allow duplicate elements. In contrast to lists each value is also assigned with key.\n\n\n\n\n\n\nTip\n\n\nValues can be selected using the associated key. You can also use the key to define a value to change.\n\n\n\ncls = {\"code\": \"GG3209\", \"Name\":\"Spatial Analysis with Python\"}\nprint(cls)\nprint(cls[\"Name\"])\ncls[\"code\"] = 461\nprint(cls)"
+    "text": "Dictionaries\nAre unordered, changeable, indexed, and do not allow duplicate elements. In contrast to lists each value is also assigned with key.\n\n\n\nValues can be selected using the associated key. You can also use the key to define a value to change.\n\n\n\ncls = {\"code\": \"GG3209\", \"Name\":\"Spatial Analysis with Python\"}\nprint(cls)\nprint(cls[\"Name\"])\ncls[\"code\"] = 461\nprint(cls)"
   },
   {
     "objectID": "week1_slides.html#dictionaries-1",
     "href": "week1_slides.html#dictionaries-1",
     "title": "Python for Spatial Analysis – PY4SA",
     "section": "Dictionaries",
-    "text": "Dictionaries\nAre unordered, changeable, indexed, and do not allow duplicate elements. In contrast to lists each value is also assigned with key.\n\n\n\n\n\n\nTip\n\n\nValues can be selected using the associated key. You can also use the key to define a value to change.\n\n\n\n\ncls = {\"code\": \"GG3209\", \"Name\":\"Spatial Analysis with Python\"}\nprint(cls)\nprint(cls[\"Name\"])\ncls[\"code\"] = 461\nprint(cls)\n\n\n\n{'code': 'GG3209', 'Name': 'Spatial Analysis with Python'}\nSpatial Analysis with Python\n{'code': 461, 'Name': 'Spatial Analysis with Python'}"
+    "text": "Dictionaries\nAre unordered, changeable, indexed, and do not allow duplicate elements. In contrast to lists each value is also assigned with key.\n\n\n\nValues can be selected using the associated key. You can also use the key to define a value to change.\n\n\n\n\ncls = {\"code\": \"GG3209\", \"Name\":\"Spatial Analysis with Python\"}\nprint(cls)\nprint(cls[\"Name\"])\ncls[\"code\"] = 461\nprint(cls)\n\n\n\n{'code': 'GG3209', 'Name': 'Spatial Analysis with Python'}\nSpatial Analysis with Python\n{'code': 461, 'Name': 'Spatial Analysis with Python'}"
   },
   {
     "objectID": "week1_slides.html#arrays",
