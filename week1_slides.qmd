@@ -13,6 +13,7 @@ format:
         data-background-color: black
      slide-number: true
      show-slide-number: print
+     logo: img/logo.png
      footer: "Module GG3209 - Second Part"
      execute:
         echo: true
@@ -47,15 +48,8 @@ format:
 
 . . .
 
-::: columns
-::: {.column width="50%"}
-![](img/Picture1.png)
-:::
+[![Play here the video](img/Picture1.png)](https://www.youtube.com/watch?v=Ct-lOOUqmyY&t=4s)
 
-::: {.column width="50%"}
-[Play here the video](https://www.youtube.com/watch?v=Ct-lOOUqmyY&t=4s)
-:::
-:::
 
 ## GIS Tools Trends 
 
@@ -93,7 +87,7 @@ A Python script is a sequence of instructions. The structure and arrangement of 
 
 ![](img/Picture6.png){width="874"}
 
-## Why is it so powerful
+## Why is it so powerful?
 
 -   Modules are collections of related code that contain variables, definitions, and instructions.
     -   These modules are organised into packages, which can be further grouped into libraries.
@@ -211,7 +205,7 @@ It can be used even to host websites, research projects, portfolios, data, and m
 
 It is widely popular and can be a way to get a job nowadays in the GIScience field.
 
-## How does it work {.smaller}
+## How does it work? {.smaller}
 
 ![](img/git_1.png){.absolute top="70" left="-17" height="16.04cm" weight="7.48cm"}
 
@@ -325,7 +319,7 @@ Variables actually `have a type`, which defines the way it is stored. The basic 
 ![](img/types_variable.png)
 :::
 
-## Why this is important {.smaller}
+## Why this is important? {.smaller}
 
 ::: {layout-nrow="1" style="margin-left: 4em; margin-right: 4em;"}
 ![](img/error_variable.png)
@@ -406,7 +400,7 @@ print(lst2[-4:-1])
 
 Are unordered, changeable, indexed, and do not allow duplicate elements. In contrast to lists each **value** is also assigned with **key**.
 
-::: {.callout-tip collapse="false"}
+::: {.callout-tip collapse='true'}
 Values can be selected using the **associated key**. You can also use the key to define a value to change.
 :::
 
@@ -418,11 +412,11 @@ cls["code"] = 461
 print(cls)
 ```
 
-## Dictionaries {auto-animate="true"}
+## Dictionaries {auto-animate='true'}
 
 Are unordered, changeable, indexed, and do not allow duplicate elements. In contrast to lists each **value** is also assigned with **key**.
 
-::: {.callout-tip collapse="false" appearance="default"}
+::: {.callout-tip collapse="true" appearance="default"}
 Values can be selected using the **associated key**. You can also use the key to define a value to change.
 :::
 
