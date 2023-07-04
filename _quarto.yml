@@ -1,10 +1,49 @@
 project:
-  title: "Python 4 Spatial Analysis - PY4SA"
   type: website
 website:
+  title: "PY4SA"
+  back-to-top-navigation: true
+  navbar:
+    background: light
+    search: true
+    tools:
+      - icon: twitter
+        href: https://twitter.com/mfbenitez
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/mfbenitezp/PY4SA
+          - text: Report an issue
+            url:  https://github.com/mfbenitezp/PY4SA/issues
+    left:
+      - href: index.qmd
+        text: "Home"
+      
+      - week1_slides.qmd
+      - week2_slides.qmd
+      - about.qmd 
+  reader-mode: true
+  open-graph: true
+  cookie-consent: true
+  page-footer:
+    border: true
+    background: light
+    left: "2023, Fernando Benitez-Paez" 
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/ 
+  
   favicon: img/favico.ico
   twitter-card: true
   site-url: https://mfbenitezp.github.io/PY4SA_Slides/
 execute:
   freeze: auto
-  
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+

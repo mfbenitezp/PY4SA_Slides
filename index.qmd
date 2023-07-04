@@ -1,0 +1,12 @@
+---
+
+tittle: "Slides Website"
+
+---
+
+This is the main page for the PY4SA slides website
+
+
+Find here the handbook for this part of the module.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

@@ -1,8 +1,8 @@
 ---
-title: "Week 1"
+title: "Week 2"
 author: "Dr Fernando Benitez-Paez"
 institute: School of Geography and Sustainable Development
-subtitle: Python for Spatial Analysis - PY4SA
+subtitle: Week 2 - Slides
 format: 
     revealjs:
      incremental: false
@@ -18,15 +18,6 @@ format:
         echo: true
         jupyter: python3
 ---
-
-## Housekeeping
-
-- Lecture with basic concepts and some demonstrations
-- Labs with exercises, Assessment No 2
-- Course Resources:
-  - Labs, assessment, Slides
-- If something is not clear, stop me and ask.
-- During exercises (you can ask for assistance from the TAs).
 
 ## Module in a glance
 
@@ -445,6 +436,7 @@ my_array[1] = 7
 print(my_array)
 
 ```
+
 ## Commenting
 
 - Useful when you want to remove the code from execution but not permanently
@@ -468,10 +460,8 @@ comment.
 - Ask us anything. Ask among yourselves as well
 - Do not freak out; failure is progress!
 
-# References
-
-[Python for Data Analysis](https://wesmckinney.com/book/)
+# References {.unnumbered}
 
 ::: {#refs}
-(Python for Data Analysis)[https://wesmckinney.com/book/]
+
 :::
