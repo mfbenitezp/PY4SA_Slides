@@ -24,7 +24,6 @@ website:
       - about.qmd 
   reader-mode: true
   open-graph: true
-  cookie-consent: true
   page-footer:
     border: true
     background: light
